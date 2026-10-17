@@ -1,0 +1,19 @@
+{
+  "name": "susu-group-tracker",
+  "version": "1.0.0",
+  "description": "An exact-money weekly rotating savings group tracker.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "jest --runInBand"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
+  "overrides": {
+    "sprintf-js": "^1.1.3"
+  }
+}
